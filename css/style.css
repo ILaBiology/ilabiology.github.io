@@ -1,28 +1,21 @@
 .color{
     color: black;
 }
-h1 {
+h2 {
     
    font-weight: 1000px;
 
 }
 
-p{
-font-weight: bold;
-
+body {
+    display: flex;
 }
 
-div{
-    font-weight: 900;
-
+body > div
+{
+    width: 50%;
 }
 
-p{
-    color:blueviolet;
-
-}
-
-h1{
-    color: blue;
-
+body > div a {
+    display: block;
 }
