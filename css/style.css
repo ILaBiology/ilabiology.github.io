@@ -1,10 +1,15 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+
 .color{
     color: black;
 }
 h2 {
     
-   font-weight: 1000px;
-
+   font-weight: 1000px
 }
 .dropbtn {
     background-color: #04AA60;
@@ -21,7 +26,7 @@ h2 {
     display: none;
     position: absolute;
     background-color: #f1f1f1;
-    min-width: 160px;
+    min-width: 110px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
 .dropdown-content a {
@@ -33,3 +38,14 @@ h2 {
 .dropdown-content a:hover {background-color: #ddd;}
 .dropdown:hover .dropdown-content {display: block;}
 .dropdown:hover .dropbtn {background-color: 3eBe41;}
+
+div {
+    display: flex;
+}
+
+main {
+    /* border: 2px solid black; */
+    margin-left: 110px;
+}
+
+
