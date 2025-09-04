@@ -46,16 +46,11 @@ main {
     /* border: 2px solid black; */
     margin-left: 110px;
 }
-
-li {
-    list-style: none;
-}
 img { 
     align-self: left;
     width: 600px;
     height: 300px;
     object-fit: fill; 
-    
 }
 .img2 {
     float: left;
@@ -71,21 +66,9 @@ img {
     height: 300px;
     object-fit: fill;
 } 
-.img4 {
-    float: left;
-    width: 600px;
-    height: 300px;
-    object-fit: fill;
-}
-.img5 {
-    float: left;
-    width: 600px;
-    height: 300px;
-    object-fit: fill;
-}
 .gen {
     text-align: justify;
-    width: 600px;
+    width: 900px;
     height: 300px;
     float: right;
     overflow: hidden;
