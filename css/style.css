@@ -29,9 +29,6 @@ h2 {
     
 }
 
-div {
-    display: flex;
-}
 
 main {
     /* border: 2px solid black; */
@@ -53,8 +50,11 @@ img {
 } 
 .img3 {
     float: right;
+    display: block;
     width: 600px;
-    height: 300px;
+    height: 290px;
+    margin-right: 300px;
+    margin-bottom: 60px;
     object-fit: fill;
 } 
 .gen {
@@ -66,7 +66,7 @@ img {
 }
 .gen2 {
     text-align: justify;
-    width: 600px;
+    width: 880px;
     height: 300px;
     float: right;
     overflow: hidden;
@@ -75,11 +75,13 @@ img {
 .gen3 {
     text-align: justify;
     width: 600px;
-    height: 300px;
+    height: 290px;
     float: left;
     overflow: hidden;
     margin-right: 10px;
+    margin-bottom: 60px;
 }
-
-
-
+p {
+    text-align: justify;
+    margin-bottom: 60px;
+}
