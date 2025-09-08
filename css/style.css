@@ -48,12 +48,9 @@ main {
 
 } 
 .img3 {
-    float: right;
     display: block;
-    width: 600px;
-    height: 290px;
-    margin-right: 300px;
-    margin-bottom: 60px;
+    width: 800px;
+    height: 300px;
     object-fit: fill;
 } 
 .gen {
