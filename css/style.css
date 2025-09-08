@@ -75,15 +75,28 @@ main {
 .gen3 {
     text-align: justify;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 17px;
+    font-size: 20px;
     width: 600px;
     height: 290px;
-    float: left;
     overflow: hidden;
     margin-right: 10px;
     margin-bottom: 60px;
 }
+.gen5 {
+    text-align: justify;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    overflow: hidden;
+}
 p {
     text-align: justify;
     margin-bottom: 60px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+.gen6 {
+    text-align: justify;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    overflow: hidden;
 }
