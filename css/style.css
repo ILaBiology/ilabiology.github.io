@@ -50,7 +50,7 @@ main {
 .img3 {
     display: block;
     width: 800px;
-    height: 300px;
+    height: 280px;
     object-fit: fill;
 } 
 .gen {
@@ -74,7 +74,7 @@ main {
 .gen3 {
     text-align: justify;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 20px;
+    font-size: 18px;
     width: 600px;
     height: 290px;
     overflow: hidden;
