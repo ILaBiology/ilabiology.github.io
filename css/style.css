@@ -56,11 +56,9 @@ main {
 .gen {
     text-align: justify;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 17px;
+    font-size: 18px;
     width: 900px;
     height: 300px;
-    float: j;
-    overflow: k;
 }
 .gen2 {
     text-align: justify;
@@ -103,4 +101,5 @@ div {
     text-align: justify;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 20px;
+    overflow: hidden;
 }
