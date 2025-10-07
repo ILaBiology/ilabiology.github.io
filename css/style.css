@@ -2,6 +2,7 @@ body {
     margin: 0px;
     padding: 0px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 10px;
 }
 .color{
     color: black;
@@ -31,14 +32,24 @@ main {
     /* border: 2px solid black; */
     margin-left: 110px;
 }
+.img {
+    display: block;
+    object-fit: fill;
+    margin-top: 10px;
+    margin-bottom: 10px;
 
+}
 
 .img3 {
     display: block;
-    width: 800px;
-    height: 280px;
     object-fit: fill;
 } 
+
+.img4 {
+    display: block;
+    object-fit: fill;
+} 
+
 .gen {
     text-align: justify;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
