@@ -4,7 +4,7 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin-left: 20px;
     font-size: 50px;
-    background-color: rgb(207, 236, 207);
+    background-color: rgb(112, 163, 112);
 }
 .color{
     color: black;
@@ -26,8 +26,8 @@ h2 {
     justify-content: space-between;
 }
 .logo a {
-    font-size: 40px;
-    font-weight: 1000px;
+    font-size: 60px;
+    font-weight: 800px;
     color: white; 
 }
 main {
