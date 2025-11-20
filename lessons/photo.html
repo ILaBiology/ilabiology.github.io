@@ -1,61 +1,74 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta href="/css/style.css" rel="stylesheet">
-    <title>title</title>
-</head>
-     
+
 <style>
     
-    body {
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-        font-size: 50px;
-        margin-left: 20px;
-        background-color: palegreen;
-    }
     h2 {
     color: rgb(112, 63, 2);
     font-weight: 10000px
 }
-    .navbar a {
-    background: rgb(119, 30, 3);
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    padding-right: 15px;
-    padding-left: 15px;
-}
-.navdiv {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-.logo a {
-    font-size: 60px;
-    font-weight: 900px;
-    color: white; 
-
-}
-img{
-    width: 50%;
-    display: flex;
-    gap: 40px;
-    float: left;
-}
+    * {
+        margin: 0;
+        padding: 0;
+        font-family: sans-serif;
+       }
+       body {
+        background-color: rgb(175, 232, 232); 
+        font-size: 20px;
+       }
+       ul {
+        background: #fff;
+       }
+       ul li {
+           display: inline-block;
+           position: relative;
+       }
+       ul li a {
+        display: block;
+        padding: 10px;
+        color: #000;
+        text-decoration: none;
+        text-align: center;
+        font-weight: bold;
+        font-size: 20px;
+       }
+       ul li ul.dropdown li {
+            display: block;
+       }
+       ul li ul.dropdown {
+            width: 150%;
+            background: #fff;
+            position: absolute;
+            display: none;
+       }
+       ul li a:hover {
+        background: #000021;
+        color: #fff;
+       }
+       ul li:hover .dropdown {
+        display: block;
+       }
+       img {
+        width: 75%;
+        justify-items: center;
+       }
 </style>
 
 <body>
+    <ul style="position: fixed;top: 0;left: 0;width: 100%;background: lightgray;padding: 10px;z-index: 1000; margin-top: -10px;">
+
     
-     <nav class="navbar"> 
-     <div class="navdiv">
-        <div class="logo">
-        <a href="all.html">General Biology Quarter 2 Lessons:</a>
-        <a href="atp.html">Lesson 1</a>
-        <a href="photo.html">Lesson 2</a>
-        <a href="cellular-respiration.html">Lesson 3</a>
-        <a href="ref.html">References</a>
-     </div>
-    </div>
-    </nav>
+    <li><a href="all.html">Home</a></li>
+    <li><a href="#">Lessons</a>
+    <ul class="dropdown">
+        <li><a href="atp.html">Lesson 1</a></li>
+        <li><a href="photo.html">Lesson 2</a></li>
+        <li><a href="cellular-respiration.html">Lesson 3</a></li>
+      <li><a href="ref.html">References</a></li>
+    </ul>
+    </li>
+    <li><a href="#">About</a></li>
+   </ul>
+     
+   <p style="margin-top:100px;">
     
     <h2>LESSON 2:PHOTOSYNTHESIS</h2>
 
@@ -210,6 +223,6 @@ img{
     •9 molecules of ATP
     <br><br>
     •6 molecules of NADPH
-    
+    </p>
 </body>
 </html>
