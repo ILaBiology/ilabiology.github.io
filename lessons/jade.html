@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Dropdown Menu</title>
+</head>
+
+
+<style>
+    @media (max-width: 600px) {
+  .diagram-container {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+  }
+  .label, .arrow, .energy-burst {
+    transform: scale(0.8);
+  }
+}
+
+   * {
+        margin: 0;
+        padding: 0;
+        font-family: sans-serif;
+       }
+       body {
+        background-color: rgb(175, 232, 232); 
+        font-size: 20px;
+       
+       }
+       ul {
+        background: #fff;
+       }
+       ul li {
+           display: inline-block;
+           position: relative;
+       }
+       ul li a {
+        display: block;
+        padding:  10px;
+        color: #000;
+        text-decoration: none;
+        text-align: center;
+        font-weight: bold;
+        font-size: 20px;
+       }
+       ul li ul.dropdown li {
+            display: block;
+       }
+       ul li ul.dropdown {
+            width: 150%;
+            background: #fff;
+            position: absolute;
+            display: none;
+            font-family: 'Courier New', Courier, monospace;
+       }
+       ul li a:hover {
+        background: #000021;
+        color: #fff;
+       }
+       ul li:hover .dropdown {
+        display: block;
+       }
+       div {
+        text-align: justify;
+        margin-right: 100px;
+        margin-left: 100px;
+       }
+       h2 {
+        text-align: center;
+       }
+
+       img {
+        width: 100%;
+        max-width: 150px;
+        object-fit: cover;
+        vertical-align: middle; 
+       }
+
+       
+        footer {
+        background-color: #2c3e50;
+        color: #ecf0f1;
+        padding: 100px 0;
+        font-family: Arial, sans-serif;
+       }
+
+        footer {
+        background-color: white;
+        color: black;
+        padding: 100px 0;
+        font-family: 'Segoe UI', sans-serif;
+        }
+
+        .footer-container {
+          max-width: 1200px;
+          margin: auto;
+        }
+
+        .footer-columns {
+          display: flex;
+          justify-content: space-between;
+          flex-wrap: wrap;
+        }
+
+        .column {
+          flex: 1;
+          min-width: 250px;
+          margin: 10px;
+        }
+
+        .column h4 {
+          margin-bottom: 10px;
+          font-size: 16px;
+          font-weight: bold;
+        }
+
+        .column p, .column a {
+          font-size: 14px;
+          color: black;
+          text-decoration: none;
+        }
+
+        .footer-bottom {
+          text-align: center;
+          margin-top: 30px;
+          font-size: 14px;
+        }
+
+        .footer-bottom img {
+          width: 20px;
+          vertical-align: middle;
+        }
+
+
+</style>
+
+<body>
+    
+     <ul style="position: fixed;top: 0;left: 0;width: 100%;background: lightgray;padding: 10px;z-index: 1000; margin-top: -10px;text-align: left;">
+
+    
+    <li><a href="all.html">Home</a></li>
+    <li><a href="#">Lessons</a>
+    <ul class="dropdown">
+        <li><a href="atp.html">Lesson 1</a></li>
+        <li><a href="photo.html">Lesson 2</a></li>
+        <li><a href="cellular-respiration.html">Lesson 3</a></li>
+        <li><a href="ref.html">References</a></li>
+    </ul>
+    </li>
+    <li><a href="jade.html">About</a></li>
+   </ul>
+
+    <p style="margin-top: 100px; text-align: center;">
+   <br><br>
+   Our mission is to provide a free access to learners who are taking the subject general biology 1, anytime and  anywhere.
+   <br><br>
+    We STEM learners put a great effort to make ILaBIO an accessible and free online resource for all STEM learners, available anytime and anywhere. It aims to present lessons in a detailed and easy-to-understand manner. ILaBIO is also designed to support teachers in delivering their lessons, especially those handling students who find General Biology challenging, particularly in the second quarter lessons 1, 2, and 3.
+    </p>
+    <br><br>
+
+   
+
+
+</body>
+    <footer>
+  <div class="footer-container">
+    <div class="footer-columns">
+      <div class="column">
+        <h4>Danaya T. Bauyon</h4>
+        <h4>Jade Mikael D. Vergara</h4>
+        <h4>Jhadairah V. Perez</h4>
+        <h4>Jhon Nelson R. Malaluan</h4>
+        <h4>Joncel C. Banda</h4>
+      </div>
+      <div class="column">
+        <h4>Danaya T. Bauyon</h4>
+        <p>Brgy. Bubucal Santa Maria Laguna</p>
+        <p>Facebook:Danaya Bauyon</p>
+        <p>Mobile: 0981-181-0067<br></p>
+        <p>Email: <a href="mailto:bauyondanaya@gmail.com">bauyondanaya@gmail.com</a></p>
+      </div>
+      <div class="column">
+        <h4></h4>
+        <h4></h4>
+        <h4></h4>
+        <h4></h4>
+        <h4></h4>
+      </div>
+    </div>
+
+</footer>
+</html>
