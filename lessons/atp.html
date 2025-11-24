@@ -89,7 +89,16 @@
 </style>
 <body>
     
-    
+     <script>
+function loadContent() {
+  document.getElementById('contentArea').innerHTML = 
+    '<p> 1. It provides energy for the cell to do work.</p>' +
+    '<p> 2. It composed of phosphate group, a ribose and adenine.</p>' +
+    '<p> 3. There are three group is attached to adenosine.</p>' +
+    '<p> 4. The last two bonds contain high energy that is useful for doing work within the cells.</p>' +
+    '<p> 5. The bonds that hold phosphate groups are easily broken by hydrolysis which results in the release of energy.</p>'
+}
+</script>
      <ul style="position: fixed;top: 0;left: 0;width: 100%;background: lightgray;padding: 10px;z-index: 1000; margin-top: -10px;">
 
     
@@ -109,13 +118,9 @@
     
     Introduction:
     <br><br>
-     
-    <a href="#" title="
-    •It provides energy for the cell to do work.
-    •It composed of phosphate group, a ribose and adenine.
-    •There are three group is attached to adenosine.
-    •The last two bonds contain high energy that is useful for doing work within the cells.
-    •The bonds that hold phosphate groups are easily broken by hydrolysis which results in the release of energy."><strong>Adenosine triphosphate (ATP)</strong></a>
+     <a href="#" onclick="loadContent()"><strong>Adenosine triphosphate (ATP)</strong></a>
+    <div id="contentArea"></div>
+    
     
     <img src="/images/recycling.jpeg" style="justify-content: center;">
      <br><br>
